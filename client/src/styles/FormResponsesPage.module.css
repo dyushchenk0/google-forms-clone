@@ -1,0 +1,81 @@
+.page {
+  padding: 32px;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.back {
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.count {
+  margin-left: auto;
+  font-size: 14px;
+  color: var(--text);
+}
+
+.responses {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.card {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.responseTitle {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+  color: var(--text-h);
+  margin-bottom: 16px;
+}
+
+.date {
+  font-size: 13px;
+  color: var(--text);
+  font-weight: 400;
+}
+
+.answers {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  word-break: break-word;
+  white-space: pre-wrap;
+}
+
+.answerRow {
+  padding: 12px;
+  background: var(--code-bg);
+  border-radius: 8px;
+  text-align: left;
+}
+
+.question {
+  font-size: 13px;
+  color: var(--text);
+  margin-bottom: 4px;
+}
+
+.answer {
+  color: var(--text-h);
+  font-size: 15px;
+}
+
+.state, .empty {
+  text-align: center;
+  color: var(--text);
+}

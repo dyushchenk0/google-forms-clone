@@ -1,0 +1,111 @@
+.page {
+  padding: 32px;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.title {
+  margin-bottom: 8px;
+}
+
+.description {
+  color: var(--text);
+  margin: 25px 0 20px 0;
+}
+
+.questions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.card {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.questionTitle {
+  display: flex;
+  font-weight: 500;
+  color: var(--text-h);
+  margin-bottom: 12px;
+  align-items: flex-start;
+}
+
+.textInput, .dateInput {
+  width: 100%;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 15px;
+  background: var(--bg);
+  color: var(--text-h);
+  box-sizing: border-box;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.optionLabel {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  color: var(--text-h);
+}
+
+.submitBtn {
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.submitBtn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.state {
+  text-align: center;
+  padding: 48px;
+  color: var(--text);
+}
+
+.success {
+  text-align: center;
+  padding: 48px;
+  color: var(--accent);
+  font-size: 20px;
+}
+
+.error {
+  color: var(--color-danger);
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.fieldError {
+  color: var(--color-danger);
+  font-size: 13px;
+  margin-top: 6px;
+}
+
+.homeBtn {
+  display: inline-block;
+  margin-top: 16px;
+  background: var(--accent);
+  color: #fff;
+  padding: 10px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 15px;
+}
